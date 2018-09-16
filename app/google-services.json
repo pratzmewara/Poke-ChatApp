@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "812546710600",
+    "firebase_url": "https://chat-c78b8.firebaseio.com",
+    "project_id": "chat-c78b8",
+    "storage_bucket": "chat-c78b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812546710600:android:9ede76333e37bb85",
+        "android_client_info": {
+          "package_name": "com.example.prateek.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812546710600-rbapch51iafkj6p2lek6utn9dqidkcfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prateek.chat",
+            "certificate_hash": "4cb5380e2345922fd7a84f98a4461f586938b028"
+          }
+        },
+        {
+          "client_id": "812546710600-j0cvq0tk4nnjma9e5ijb8mgu10efsdu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ6n7B2hAfE-wGKPIWgtFBJ8rQZdiqIQ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812546710600-j0cvq0tk4nnjma9e5ijb8mgu10efsdu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
