@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="0dp"></include>
 
     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/profile_image"
+        android:id="@+id/circular_profile_image"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="8dp"
@@ -25,13 +25,13 @@
         android:src="@drawable/defaultprofilepic"
         app:civ_border_color="@color/colorAccent"
         app:civ_border_width="3dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/settings_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/setting_toolbar" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/settings_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -41,13 +41,13 @@
         android:text="Username"
         android:textColor="@color/colorAccent"
         android:textSize="21sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/settings_status"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/settings_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="96dp"
@@ -57,13 +57,13 @@
         android:text="User Status"
         android:textColor="@color/colorAccent"
         android:textSize="21sp"
-        app:layout_constraintBottom_toTopOf="@+id/changeimage"
+        app:layout_constraintBottom_toTopOf="@+id/setting_profilepic_chng_btn"
         app:layout_constraintEnd_toEndOf="parent"
 
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/changeimage"
+        android:id="@+id/setting_profilepic_chng_btn"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
@@ -72,15 +72,15 @@
         android:gravity="center"
         android:padding="10dp"
         android:shadowRadius="@integer/google_play_services_version"
-        android:text="Change Image"
+        android:text="Change Profile Pic"
         android:textStyle="bold"
         android:theme="@style/MyButton"
-        app:layout_constraintBottom_toTopOf="@+id/editstatus"
+        app:layout_constraintBottom_toTopOf="@+id/setting_status_chng_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/editstatus"
+        android:id="@+id/setting_status_chng_btn"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"

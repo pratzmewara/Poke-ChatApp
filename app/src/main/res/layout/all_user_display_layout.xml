@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="8dp"
+    android:elevation="90dp">
+
+    <LinearLayout
+        android:id="@+id/all_users_linear_layout"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="1dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/all_user_dafault_image"
+            android:src="@drawable/defaultprofilepic"></de.hdodenhof.circleimageview.CircleImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/all_user_username"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Username"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/all_user_staatus"
+                android:textColor="#000"
+                android:text="User Status"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
