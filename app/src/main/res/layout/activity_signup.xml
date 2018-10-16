@@ -87,7 +87,7 @@
         android:gravity="center"
         android:padding="10dp"
         android:shadowRadius="@integer/google_play_services_version"
-        android:text="LOGIN"
+        android:text="SIGN UP"
         android:textStyle="bold"
         android:theme="@style/MyButton"
         app:layout_constraintBottom_toBottomOf="parent"
